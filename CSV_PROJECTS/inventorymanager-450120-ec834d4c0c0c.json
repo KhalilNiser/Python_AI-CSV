@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "inventorymanager-450120",
+  "private_key_id": "ec834d4c0c0c27302e4c2d94ff92bc6f829cbe2f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDGmr5kiGqSrRdN\nvtiDAqVANJE/3PL29iT08qWtjOsC0jRZ+HYMIk1F3q3/fRF/W5QNDNFssDECzUMO\n80AJgHquo1Zlkc9cI8Vt0QwbRHA27tEwpORe0LaWyHlF1wcxSGwxlRbch3VJM2/E\nRhwk3XYNbxoyQbs+rA+CMuXFLJkBa5M5VXbJUPpQI8hPYsgwuBJ1p9NNNaVVY4Oo\nZY2MhKtM+HSh2TrV87XNjF82hJJInt5Vo55D210ul38TxfrGW+WwpHevucDYknoP\nb2cUmXmNx6vWi1JDQOaFh6AAZxitbtNUuaYFtfYT5x6Cy0Ab4yy61YRVt7nGm+XZ\nl7BeuWijAgMBAAECggEABROzm5z5Ic1sSRUrMmjWPJvwvUcyrCmCrFhU7+jS9nwq\ne8T5j48uQS5TbbKOyJ4DXN9frdLwjc0dfREEKWSwE4LNae9I87wJB1OkEZZgSqc0\nOyAb+RMwzQ325lgm25Wps7gcoNU9pE9no1wqIAR2nhqhpXiUsXdzNgrYYNVRBqjj\nuwsPU9zvSs4qjCkItpYQCm0vVU68WRXUmXOAJF9EVlDX7b+6JQhOnV16ZHWOm4Wk\nPShzjMk0sib0HtcL4WW+xaxArleiORkvL67enw4n95UY7wevyvjiJHn/NskMU9jB\ngWTt9oCMo1bSbTR+L471LmkPMhBEEUSfQcg8dZIggQKBgQD+AVBDvrSSWwW+WIwk\nsPShvuLAc3XwgxeZd49UjFNXm4gsV6ZXLjv68UPWxj/0emnb/zDmT40j8+yNv5k5\n/0VbHT2CuiUNunvxtf/T+CXuQrITZ3aUXfx85mcvvwVrrRPs4eQWAvRXRGntYB0U\nSrKB5PyU4smsG9oP7baeWDSRgwKBgQDIKguPgCERgmRtpTPRgCd7pCTeT+hnu6dx\nR1W5eob+Saf30twCnAkTiacA9e33L0Bab2cZW2J5GRqnGM9Ua/iq2xBqORKgdxx/\n3QsvmGkZVyVoiRCkoggJc7VrjTwejUek0jhfgWeYtx9nu9rIFAvHdKBbDl1GlPQU\nTl0CeAPCYQKBgQCnoVBKVSowSHfi5ecfM9VOhX56Cfj00F8bvgbOgoliENfug63Y\nbT/SXbUqoc2FV+BS+vhXlnqMFqev6JmD6A7qkcKNarGXfNHddAIw7tyBgGyrV6Wv\nRtOhziCdJxC5vhCfTXjMegitKw5JRRwLzzw9c1SqIX184yinSHczyvxuZwKBgBdY\nsBiAvVqpdsVDK5QX+oL1VkeH0nem75TK2TjVDcHDHZBOS9MSGAzrVUtLZAIcxMjH\njaLrgcTWJMGwpx4Vqd9jxbpeBcopmm1fftqCUF/gRkC3G/XX4FAZ6uMsigKWP/D9\nhA2/rjGlykfzJUWI8QbGl52HQ2HkJcPoj/ilvuqBAoGBAP2AqZHM0M7pv8u4Qv/j\n5N9tRMuPyy9MjFVzKpz1U+siD9TmBVDSA9fSinOM3EY/lEpMhjoeNU27V0hO4FP0\nBmNKYyte+ItOd+ESNRhJBnlQQpZs9mGakIuXV2fbq8X6c01Z2aYERB1omCi9e1BL\n8fafbo/pRnlH7g4NAsZI1YLZ\n-----END PRIVATE KEY-----\n",
+  "client_email": "inventorymanager@inventorymanager-450120.iam.gserviceaccount.com",
+  "client_id": "100994433909179877290",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/inventorymanager%40inventorymanager-450120.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
