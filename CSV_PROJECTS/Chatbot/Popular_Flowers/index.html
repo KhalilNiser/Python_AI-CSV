@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Khalil Niser">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Flowers</title>
+    <!--        ---- LINK_CSS ----       -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <!-- DIV_CLASS_NAVBAR -->
+    <div class="navbar">
+
+        <a href="#home">HOME</a>
+        <a href="#roses">ROSES</a>
+        <a href="#tulips">TULIPS</a>
+        <a href="#lilies">LILIES</a>
+        <a href="#sunflowers">SUNFLOWERS</a>
+        <a href="#orchids">ORCHIDS</a>
+        <a href="#about">ABOUT US</a>
+        <a href="#contact">CONTACT</a>
+
+    <!-- END_DIV_CLASS_NAVBAR  -->
+    </div>
+
+    <!-- CONTAINER_CLASS_DIV -->
+    <div class="container">
+        <!-- HOME_SECTION -->
+        <section id="home">
+            <h1>Welcome to the World of Flowers</h1>
+            <p>Discover the beauty and history of the five most popular flowers on Earth</p>
+        <!-- END_HOME_SECTION -->
+        </section>
+
+
+        <!-- LIGHTBOX_IMG_DIV -->
+        <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+            <img id="lightbox-img" src="" alt="">
+        <!-- END_LIGHTBOX_IMG_DIV -->
+        </div>
+
+        
+        <!-- ROSES_SECTION -->
+        <section id="roses">
+            <h2>Roses</h2>
+            <img src="images/rose.jpg" alt="Roses">
+            <!-- Paragraph 1 Roses -->
+            <p>
+            Roses are considered amongst the most beloved flowers on worldwide. 
+            Known for their beauty and fragrance. They have been cultivated 
+            for thousands of years and are often associated with love and romance.
+            </p>
+
+            <!-- Paragraph 2 Roses -->
+            <p>
+            Historically, roses have been used in perfumes, medicine, and even as 
+            symbols of power and war. The ancient Romans and Greeks admired them 
+            greatly, and today they remain one of the most popular flowers for 
+            special occasions.
+            </p>
+        <!-- END_ROSES_SECTION -->
+        </section>
+
+
+        <!-- TULIPS_SECTION -->
+        <section id="tulips">
+            <h2>Tulips</h2>
+            <img src="images/tulip.jpg" alt="Tulips">
+            <!-- Paragraph 1 Tulips -->
+            <p>
+            Tulips are vibrant and colorful flowers that originated in Central 
+            Asia but gained immense popularity in the Netherlands. They symbolize 
+            elegance and grace.
+            </p>
+            <!-- Paragraph 2 Tulips -->
+            <p>
+            In the 17th century, the Netherlands experienced "Tulip Mania," where 
+            tulips became so valuable that their bulbs were traded as currency. 
+            Today, they are a symbol of spring and renewal.</p>
+        <!-- END_TULIPS_SECTION -->
+        </section>
+
+
+        <!-- LILIES_SECTION -->
+        <section id="lilies">
+            <h2>Lilies</h2>
+            <img src="images/lily.jpg" alt="Lilies">
+            <!-- Paragraph 1 Lily -->
+            <p>
+            Lilies are known for their large, fragrant blooms and are often 
+            associated with purity and devotion. They are frequently used in 
+            religious and in ceremonial events.
+            </p>
+            <!-- Paragraph 2 Lily -->
+            <p>
+            Throughout history, lilies have been mentioned in mythology and art. 
+            The Greeks and Romans linked them to their goddesses, and today they 
+            remain a symbol of beauty and tranquility.
+            </p>
+        <!-- END_LILIES_SECTION -->
+        </section>
+
+
+        <!-- SUNFLOWERS_SECTION -->
+        <section id="sunflowers">
+            <h2>Sunflowers</h2>
+            <img src="images/sunflower.jpg" alt="Sunflowers">
+            <!-- Paragraph 1 Sunflowers -->
+            <p>
+            Sunflowers are famous for their bright yellow petals and ability to 
+            follow the sun across the sky. They symbolize positivity, happiness, 
+            and loyalty.
+            </p>
+            <!-- Paragraph 2 Sunflowers -->
+            <p>
+            Native to North America, sunflowers were cultivated by indigenous people 
+            for their seeds and oil. Today, they are grown worldwide for decorative 
+            and agricultural purposes.
+            </p>
+        <!-- END_SUNFLOWERS_SECTION -->
+        </section>
+
+
+        <!-- ORCHIDS_SECTION -->
+        <section id="orchids">
+            <h2>Orchids</h2>
+            <img src="images/orchid.jpg" alt="Orchids">
+            <!-- Paragraph 1 Orchids -->
+            <p>
+            Orchids are exotic and diverse flowers that are known for their stunning 
+            beauty and intricate shapes. They symbolize love, luxury, and strength.
+            </p>
+            <!-- Paragraph 2 Orchids -->
+            <p>
+            Orchids have a long history, dating back to ancient Chinese and Greek 
+            civilizations. They have been cultivated for centuries and are highly 
+            valued for their rarity and elegance.
+            </p>
+        <!-- END_ORCHIDS_SECTION -->
+        </section>
+
+
+        <!-- ABOUT_SECTION -->
+        <section id="about">
+            <h2>About Us</h2>
+            <!-- Paragraph 1 About Us -->
+            <p>
+            FlowerWorld is dedicated to celebrating the beauty and history of 
+            flowers. Our mission is to educate and inspire people by sharing 
+            fascinating stories about the most beloved flowers on Earth.
+            </p>
+            <!-- Paragraph 2 About Us -->
+            <p>
+            With a passion for nature and a love for floral history, our team 
+            curates the best information and images to help you appreciate the 
+            natural world around us.</p>
+        <!-- END_ABOUT_SECTION -->
+        </section>
+
+
+        <!-- CONTACT_SECTION -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <!-- CONTACT_FORM_CLASS -->
+            <div class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            <!-- END_CONTACT_FORM_CLASS -->
+            </div>
+        <!-- END_CONTACT_SECTION -->
+        </section>
+
+        <button id="scrollTop" onclick="scrollToTop()">&#8593;</button>
+    <!-- END_CONTAINER_CLASS_DIV -->
+    </div>
+
+
+
+    <!--        ---- LINK_JAVASCRIPT ----       -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

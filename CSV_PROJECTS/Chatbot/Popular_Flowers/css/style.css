@@ -1,0 +1,167 @@
+
+/*      ---- BODY_CUSTOMISATION     ----*/
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333;
+    background-color: #f8f8f8;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/*      ---- NAVBAR_SECTION_CUSTOMISATION ----      */
+.navbar
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #d4e9d2;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba( 0, 0, 0, 0.1 );
+}
+
+
+/*      ---- ANCHOR_(<a> ... </a>)_CUSTOMISATION 
+NOTE: Anchor tag (<a> ... </a> hyperlink element, with 
+its href attribute. Creates a navigation link to "web 
+pages, files, email addresses, locations within the same 
+page, as well as links to other URL addresses.  ---- */
+.navbar a
+{
+    color: #fff;
+    padding: 14px 20px;
+
+    /* By default links (<a> elements) have an underline.
+    Using "text-decoration: none;", removes all lines. */
+    text-decoration: none;
+
+    /* Dark/thick characters */
+    font-weight: bold;
+}
+
+.navbar a:hover
+{
+    background: #ff6347;
+}
+
+
+/*      ---- DIV_CONTAINER ----     */
+.container
+{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+
+/*      ---- SECTION ----       */
+section
+{
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+/*      ---- IMAGE_SECTION ----      */
+img
+{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba( 0, 0, 0, 0.2 );
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+
+img:hover
+{
+    /* Enlarges the image upon hover.
+    Slightly rotates the image 15 degrees
+     */
+    transform: scale( 1.2 ) rotate( 15deg );
+
+    /* Slightly rotates the image */
+
+    /* Moves the image 20px to the right */
+    /* transform: translate( 20px ); */
+
+    /* box-shadow: 0.3s ease; */
+}
+
+
+/*      ---- LIGHTBOX_SECTION_CUSTOMISATION ----        */
+.lightbox
+{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba( 0, 0, 0, 0.8 );
+    text-align: center;
+}
+
+.lightbox img
+{
+    margin-top: 10%;
+    width: 50%;
+}
+
+
+/*      ---- DIV_CONTACT-FORM_CUSTOMISATION ----         */
+.contact-form
+{
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+
+/* Targets only the "input and the textarea" 
+section of the "contact-form" */
+input, textarea
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+/*      ---- BUTTON ----        */
+button
+{
+    background: #80EF80;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+button:hover
+{
+    background: #ff6347;
+}
+
+
+#scrollTop
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background: #ff7f50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+ 
